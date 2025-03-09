@@ -6,6 +6,8 @@
 
 #include <iostream>
 
+#include "ListInputHandler.h"
+
 bool CollectionInputHandler::checkIndex(int i) {
     return !(i < 0 || i >= collection->size());
 
@@ -35,7 +37,10 @@ void CollectionInputHandler::listen() {
         removeList();
     }
     else if (isIndex(command)) {
-        //TODO aggiungi crazione di ListInputHandler
+        TodoList* list = collection->get_lists()[std::stoi(command)];
+        ListInputHandler* listInput = new ListInputHandler(list);
+        listInput->displayActions();
+        delete listInput;
     }
 }
 

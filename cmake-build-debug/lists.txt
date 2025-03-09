@@ -1,5 +1,16 @@
-Lista1
+LISTA_1
 Hello World!
 0
 0
+Chiamare la nonna
+0
+0
+Fare la spesa
+1
+1
+----
+LISTA_2
+Studiare C++
+0
+1
 ----

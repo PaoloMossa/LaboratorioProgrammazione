@@ -12,7 +12,6 @@ class CollectionView : public Observer {
 private:
     TodoListCollection* collection;
 
-    void display() const;
     void update() override;
 
     std::string toString(Task *task) const;
@@ -24,6 +23,8 @@ public:
     ~CollectionView() {
         collection->detach(this);
     }
+    void display() const;
+
 };
 
 

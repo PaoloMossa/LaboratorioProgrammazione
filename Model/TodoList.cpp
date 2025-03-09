@@ -40,7 +40,9 @@ void TodoList::notify() {
 }
 
 void TodoList::attach(Observer *o) {
-    observers.push_back(o);
+    if (std::find(observers.begin(), observers.end(), o) == observers.end()) {
+        observers.push_back(o);
+    }
 }
 
 void TodoList::detach(Observer *o) {

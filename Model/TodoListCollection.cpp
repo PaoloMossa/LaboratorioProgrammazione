@@ -6,6 +6,8 @@
 
 void TodoListCollection::attach(Observer *o) {
     observers.push_back(o);
+    for (auto list : lists)
+        list->attach(o);
 }
 
 void TodoListCollection::detach(Observer *o) {

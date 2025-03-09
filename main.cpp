@@ -10,16 +10,20 @@
 int main() {
     FileHandler* file_handler = new FileHandler("lists.txt");
 
-    Task* task = new Task();
-    task->set_description("Hello World!");
-    TodoList* list1 = new TodoList();
-    std::string name = "Lista1";
-    list1->setName(name);
-    list1->addTask(task);
+    // Task* task = new Task();
+    // task->set_description("Hello World!");
+    // TodoList* list1 = new TodoList();
+    // std::string name = "LISTA_1";
+    // list1->setName(name);
+    // list1->addTask(task);
+    //
+    // TodoListCollection* collection = new TodoListCollection();
+    // CollectionView* view = new CollectionView(collection);
+    // collection->addList(list1);
 
-    TodoListCollection* collection = new TodoListCollection();
+    TodoListCollection* collection = file_handler->load();
     CollectionView* view = new CollectionView(collection);
-    collection->addList(list1);
+    view->display();
 
     CollectionInputHandler* inputHandler;
     inputHandler = new CollectionInputHandler(collection);
@@ -27,8 +31,8 @@ int main() {
 
     file_handler->save(collection);
 
-    delete task;
-    delete list1;
+    // delete task;
+    // delete list1;
     return 0;
 }
 
