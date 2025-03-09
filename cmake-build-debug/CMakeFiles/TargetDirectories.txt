@@ -1,3 +1,11 @@
 /Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/CMakeFiles/Laboratorio_Programmazione.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/CMakeFiles/core.dir
 /Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/CMakeFiles/runTests.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/CMakeFiles/edit_cache.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/CMakeFiles/rebuild_cache.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/lib/googletest/CMakeFiles/gtest_main.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/lib/googletest/CMakeFiles/edit_cache.dir
+/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/cmake-build-debug/test/lib/googletest/CMakeFiles/rebuild_cache.dir
