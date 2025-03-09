@@ -56,12 +56,12 @@ void CollectionInputHandler::newList() const {
     std::cout << "INSERIRE IL NOME DELLA NUOVA LISTA: ";
     std::string name;
     std::cin >> name;
-    controller->AddList(name);
+    controller->addList(name);
 }
 
 void CollectionInputHandler::removeList() const {
     std::string index;
     std::cout << "Inserire indice: ";
     std::cin >> index;
-    controller->RemoveList(index);
+    controller->removeList(index);
 }

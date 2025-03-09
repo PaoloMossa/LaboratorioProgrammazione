@@ -13,8 +13,8 @@ private:
 public:
     explicit CollectionController(TodoListCollection* collection) : collection(collection){}
 
-    void AddList(std::string name);
-    void RemoveList(std::string index);
+    void addList(std::string &name);
+    void removeList(std::string &index);
 };
 
 

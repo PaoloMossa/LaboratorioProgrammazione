@@ -6,13 +6,13 @@
 
 #include <iostream>
 
-void CollectionController::AddList(std::string name) {
+void CollectionController::addList(std::string &name) {
     TodoList* newList = new TodoList();
     newList->setName(name);
     collection->addList(newList);
 }
 
-void CollectionController::RemoveList(std::string index) {
+void CollectionController::removeList(std::string &index) {
     try {
         int i;
         i = std::stoi(index);
