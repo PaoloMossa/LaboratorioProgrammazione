@@ -68,4 +68,14 @@ TEST_F(TodoListSuite, completeTaskTest) {
     EXPECT_EQ(list->get_tasks()[0]->is_completed(), true);
 }
 
+TEST_F(TodoListSuite, completeTaskTest_WrongIndex) {
+    list->completeTask(99);
+    EXPECT_EQ(list->get_tasks()[0]->is_completed(), false);
+}
+
+TEST_F(TodoListSuite, completeTaskTest_NegativeIndex) {
+    list->completeTask(-1);
+    EXPECT_EQ(list->get_tasks()[0]->is_completed(), false);
+}
+
 
