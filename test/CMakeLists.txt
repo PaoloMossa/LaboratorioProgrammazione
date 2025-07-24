@@ -8,6 +8,7 @@ set(TEST_SOURCE_FILES runAllTests.cpp
         TodoListFixture.cpp
         TodoListTest.cpp
         FileHandlerFixture.cpp
-        CollectionControllerFixture.cpp)
+        CollectionControllerFixture.cpp
+        CollectionViewFixture.cpp)
 add_executable(runTests ${TEST_SOURCE_FILES})
 target_link_libraries(runTests gtest gtest_main core)

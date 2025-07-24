@@ -35,7 +35,6 @@ protected:
         controller = new CollectionController(collection);
     }
 
-    // This function is called after each test is run.
     void TearDown() override {
         delete gestoreFile;
         delete collection;

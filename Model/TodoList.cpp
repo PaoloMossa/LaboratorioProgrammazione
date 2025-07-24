@@ -5,6 +5,7 @@
 #include "TodoList.h"
 
 bool TodoList::checkIndex(int index) {
+    // TODO: correct implementation. Or just delete this function: it is never used
     bool valid = false;
     if (index < 0 || index >= tasks.size())
         valid = true;

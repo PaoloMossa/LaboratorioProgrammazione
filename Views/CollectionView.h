@@ -22,9 +22,9 @@ public:
     }
     ~CollectionView() {
         collection->detach(this);
+        delete collection;
     }
     void display() const;
-
 };
 
 

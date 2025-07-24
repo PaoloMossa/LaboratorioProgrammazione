@@ -33,6 +33,11 @@ int main() {
 
     // delete task;
     // delete list1;
+    delete file_handler;
+    delete collection;
+    delete view;
+    delete inputHandler;
+
     return 0;
 }
 

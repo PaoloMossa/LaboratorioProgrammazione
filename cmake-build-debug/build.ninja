@@ -224,6 +224,13 @@ build test/CMakeFiles/runTests.dir/CollectionControllerFixture.cpp.o: CXX_COMPIL
   OBJECT_DIR = test/CMakeFiles/runTests.dir
   OBJECT_FILE_DIR = test/CMakeFiles/runTests.dir
 
+build test/CMakeFiles/runTests.dir/CollectionViewFixture.cpp.o: CXX_COMPILER__runTests_unscanned_Debug /Users/paolomossa/CLionProjects/Laboratorio_Programmazione/test/CollectionViewFixture.cpp || cmake_object_order_depends_target_runTests
+  DEP_FILE = test/CMakeFiles/runTests.dir/CollectionViewFixture.cpp.o.d
+  FLAGS = -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=15.4 -fcolor-diagnostics
+  INCLUDES = -I/Users/paolomossa/CLionProjects/Laboratorio_Programmazione/test/lib/googletest -isystem /Users/paolomossa/CLionProjects/Laboratorio_Programmazione/test/lib/googletest/include
+  OBJECT_DIR = test/CMakeFiles/runTests.dir
+  OBJECT_FILE_DIR = test/CMakeFiles/runTests.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target runTests
@@ -232,7 +239,7 @@ build test/CMakeFiles/runTests.dir/CollectionControllerFixture.cpp.o: CXX_COMPIL
 #############################################
 # Link the executable test/runTests
 
-build test/runTests: CXX_EXECUTABLE_LINKER__runTests_Debug test/CMakeFiles/runTests.dir/runAllTests.cpp.o test/CMakeFiles/runTests.dir/TodoListFixture.cpp.o test/CMakeFiles/runTests.dir/TodoListTest.cpp.o test/CMakeFiles/runTests.dir/FileHandlerFixture.cpp.o test/CMakeFiles/runTests.dir/CollectionControllerFixture.cpp.o | test/lib/googletest/libgtestd.a test/lib/googletest/libgtest_maind.a libcore.a test/lib/googletest/libgtestd.a || libcore.a test/lib/googletest/libgtest_maind.a test/lib/googletest/libgtestd.a
+build test/runTests: CXX_EXECUTABLE_LINKER__runTests_Debug test/CMakeFiles/runTests.dir/runAllTests.cpp.o test/CMakeFiles/runTests.dir/TodoListFixture.cpp.o test/CMakeFiles/runTests.dir/TodoListTest.cpp.o test/CMakeFiles/runTests.dir/FileHandlerFixture.cpp.o test/CMakeFiles/runTests.dir/CollectionControllerFixture.cpp.o test/CMakeFiles/runTests.dir/CollectionViewFixture.cpp.o | test/lib/googletest/libgtestd.a test/lib/googletest/libgtest_maind.a libcore.a test/lib/googletest/libgtestd.a || libcore.a test/lib/googletest/libgtest_maind.a test/lib/googletest/libgtestd.a
   FLAGS = -std=c++17 -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk -mmacosx-version-min=15.4
   LINK_LIBRARIES = test/lib/googletest/libgtestd.a  test/lib/googletest/libgtest_maind.a  libcore.a  test/lib/googletest/libgtestd.a
   OBJECT_DIR = test/CMakeFiles/runTests.dir
